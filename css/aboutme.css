@@ -592,6 +592,20 @@ ul {
     transition:         opacity 1s,         transform 0.5s 1s;
 }
 
+.impress-enabled div#impress-toolbar {
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    opacity: 0.6;
+}
+.impress-enabled div#impress-toolbar > span {
+    margin-right: 10px;
+}
+
+body.impress-mouse-timeout div#impress-toolbar {
+    display: none;
+}
+
 .impress-enabled .hint { display: block }
 
 .impress-on-welcome .hint {
@@ -610,5 +624,8 @@ ul {
     transition:         opacity 1s 3s,         transform 0.5s 2.5s;
 }
 
-.impress-enabled          { pointer-events: none }
-.impress-enabled #impress { pointer-events: auto }
+.impress-enabled                    { pointer-events: none }
+.impress-enabled #impress           { pointer-events: auto }
+.impress-enabled #impress-toolbar   { pointer-events: auto }
+
+
