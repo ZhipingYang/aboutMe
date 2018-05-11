@@ -262,7 +262,7 @@ ul {
     transform:         translateY(-10px);
 }
 
-#me.present .unity {
+#me.present .web {
     -webkit-transform: translateY(10px);
     -moz-transform:    translateY(10px);
     -ms-transform:     translateY(10px);
@@ -322,11 +322,11 @@ ul {
     color: purple;
 }
 
-#japan {
+#dream {
     width: 650px;
 }
 
-#japan b {
+#dream b {
     display: inline-block;
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
@@ -335,7 +335,7 @@ ul {
     transition:         0.5s;
 }
 
-#japan.present .trans {
+#dream.present .trans {
     -webkit-transform: translateX(100px);
     -moz-transform:    translateX(100px);
     -ms-transform:     translateX(100px);
@@ -349,7 +349,7 @@ ul {
     transition-delay:         0.5s;
 }
 
-#japan .footnote {
+#dream .footnote {
     font-size: 15px;
 }
 
@@ -381,16 +381,6 @@ ul {
 
 #imagination .imagination {
     font-size: 78px;
-}
-
-#findme {
-    width: 900px;
-    padding-bottom: 120px;
-
-    background-image: url(https://avatars2.githubusercontent.com/u/9360037?s=460&v=4);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 180px;
 }
 
 #prizeme p {
@@ -466,6 +456,78 @@ ul {
     transform:         translateZ(0px);
 }
 
+#findme {
+    width: 900px;
+    padding-bottom: 120px;
+
+    background-image: url(https://avatars2.githubusercontent.com/u/9360037?s=460&v=4);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+#project h2,
+#project a {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#project.present h2 {
+    -webkit-transform: translateY(-30px);
+    -moz-transform:    translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    -o-transform:      translateY(-30px);
+    transform:         translateY(-30px);
+}
+
+#project .xydebug,
+#project .chattable,
+#project .chart {
+    -webkit-transform: scale(0) translateY(1000px);
+    -moz-transform:    scale(0) translateY(1000px);
+    -ms-transform:     scale(0) translateY(1000px);
+    -o-transform:      scale(0) translateY(1000px);
+    transform:         scale(0) translateY(1000px);
+}
+
+
+#project.present .xydebug,
+#project.present .chattable,
+#project.present .chart {
+    -webkit-transform: scale(1) translateY(0px);
+    -moz-transform:    scale(1) translateY(0px);
+    -ms-transform:     scale(1) translateY(0px);
+    -o-transform:      scale(1) translateY(0px);
+    transform:         scale(1) translateY(0px);
+}
+
+#project.present .xydebug {
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay:    0.2s;
+    -ms-transition-delay:     0.2s;
+    -o-transition-delay:      0.2s;
+    transition-delay:         0.2s;
+}
+
+#project.present .chattable {
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay:    0.3s;
+    -ms-transition-delay:     0.3s;
+    -o-transition-delay:      0.3s;
+    transition-delay:         0.3s;
+}
+
+#project.present .chart {
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay:    0.4s;
+    -ms-transition-delay:     0.4s;
+    -o-transition-delay:      0.4s;
+    transition-delay:         0.4s;
+}
 
 .adv {
     font-size: 20px;
